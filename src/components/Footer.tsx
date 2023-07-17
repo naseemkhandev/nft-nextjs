@@ -18,7 +18,7 @@ const SocialMedia = ({ icon, name, link }: any) => {
 const Footer = () => {
   const date = new Date().getFullYear();
   return (
-    <section className="relative bg-[url('/footerbg.png')] bg-cover h-full py-16">
+    <section className="relative bg-[url('/footerbg.png')] bg-cover h-full py-16 pb-10 sm:pb-16 pt-20 mt-10">
       <div className="container mx-auto px-5 sm:px-10 flex items-start md:flex-row flex-col gap-10 md:gap-24">
         <div className="md:max-w-[470px]">
           <h2 className="text-3xl">Naseem.</h2>
@@ -44,7 +44,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-5 sm:px-10 flex items-center justify-between md:flex-row flex-col gap-5 pt-8 mt-28 border-t">
+      <div className="container mx-auto px-5 sm:px-10 flex items-center justify-between md:flex-row flex-col gap-5 pt-8 mt-16 md:mt-28 border-t">
         <p className="lg:text-base xs:text-sm text-xs">
           Copyright Ⓒ {date} Naseem Khan. All Rights Reserved.
         </p>

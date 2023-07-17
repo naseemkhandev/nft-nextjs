@@ -26,17 +26,17 @@ const Email = () => {
         </section>
       ) : (
         <section className="container md:px-10 p-10 md:p-16 mx-auto">
-          <div className="relative bg-white bg-[url('/doodle.png')] bg-cover bg-center bg-fixed flex flex-col gap-5 items-center justify-center py-28 w-1/2 mx-auto">
+          <div className="relative px-10 bg-white bg-[url('/doodle.png')] bg-cover bg-left bg-fixed flex flex-col gap-5 items-center justify-center py-28 w-full lg:w-1/2 mx-auto">
             <div>
               <Image
                 src="/Thankyou.png"
                 width={300}
                 height={300}
                 alt="Thankyou"
-                className="mx-auto"
+                className="mx-auto w-52 md:w-72 object-cover"
               />
             </div>
-            <p className="text-[#969696] text-center text-lg">
+            <p className="text-[#969696] text-center text-sm sm:text-base md:text-lg">
               If you liked this project, then give it a 👍 <br />
               Don&apos;t foget to share your reviews in comment section.
             </p>
