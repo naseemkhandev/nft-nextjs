@@ -1,4 +1,5 @@
 import Collections from "@/components/Collections";
+import Email from "@/components/Email";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import SellNFT from "@/components/SellNFT";
@@ -12,6 +13,7 @@ export default function Home() {
       <Collections />
       <Features />
       <SellNFT />
+      <Email />
     </section>
   );
 }
