@@ -21,7 +21,7 @@ const Navbar = () => {
           <ul
             className={`${
               toggleMenu ? "right-0" : "-right-full"
-            } flex items-start md:items-center md:flex-row flex-col gap-6 px-10 py-32 md:py-0 md:px-0 md:gap-5 lg:gap-10 capitalize fixed md:relative top-0 md:left-0 w-full xs:w-80 h-screen md:w-auto md:h-auto bg-[#160e2aeb] backdrop-blur-3xl md:bg-transparent md:backdrop-blur-0 transition-all duration-500`}
+            } flex items-start md:items-center md:flex-row flex-col gap-6 px-10 py-32 md:py-0 md:px-0 md:gap-5 lg:gap-10 capitalize fixed md:relative top-0 md:left-0 w-full xs:w-80 h-screen md:w-auto md:h-auto bg-[#160e2a] backdrop-blur-3xl md:bg-transparent md:backdrop-blur-0 transition-all duration-500`}
           >
             {NavLinks.map(({ id, name }) => {
               return (
