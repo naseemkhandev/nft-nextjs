@@ -4,7 +4,7 @@ import CommonButton from "./CommonButton";
 
 const TopCreators = () => {
   return (
-    <section className="container flex flex-col items-center gap-16 sm:gap-20 md:gap-24 pt-5 sm:pt-16 p-10 md:p-16 mx-auto">
+    <section id="marketplace" className="container flex flex-col items-center gap-16 sm:gap-20 md:gap-24 pt-5 sm:pt-16 p-10 md:p-16 mx-auto">
       <div className="mx-auto">
         <CommonTitle title="top creators" />
       </div>
