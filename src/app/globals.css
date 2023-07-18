@@ -108,6 +108,10 @@ html {
   height: 44px;
 }
 
+.menu-gradients {
+  background: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+}
+
 .social-name {
   width: 0;
   color: white;
