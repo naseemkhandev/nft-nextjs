@@ -4,7 +4,7 @@ import CommonButton from "./CommonButton";
 
 const Collections = () => {
   return (
-    <section className="container md:px-10 px-5 flex md:flex-row flex-col items-center gap-10 lg:gap-16 pt-5 sm:pt-16 p-10 md:p-16 mx-auto">
+    <section id="about" className="container md:px-10 px-5 flex md:flex-row flex-col items-center gap-10 lg:gap-16 pt-5 sm:pt-16 p-10 md:p-16 mx-auto">
       <div>
         <Image
           src="/collections.png"

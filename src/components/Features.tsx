@@ -3,11 +3,11 @@ import CommonTitle from "./CommonTitle";
 
 const Features = () => {
   return (
-    <section className="relative sm:my-10 md:my-16">
+    <section id="resources" className="relative sm:my-10 md:my-16">
       <div className="container md:px-10 px-5 mx-auto md:flex-row flex-col flex items-center md:gap-10 lg:gap-36 pt-12 sm:pt-16 xl:pt-10">
         <div className="flex-1 flex flex-col gap-5 lg:gap-10 md:max-w-[440px]">
           <div className="lg:mb-0 mb-4">
-          <CommonTitle title="why choose us?" />
+            <CommonTitle title="why choose us?" />
           </div>
           <p className="text-xs sm:text-sm sm:leading-loose leading-loose">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
@@ -22,7 +22,13 @@ const Features = () => {
         </div>
 
         <div className="flex-1">
-          <Image src="/features.png" width={500} height={500} alt="features" className="pb-10 sm:pb-16 md:pb-0" />
+          <Image
+            src="/features.png"
+            width={500}
+            height={500}
+            alt="features"
+            className="pb-10 sm:pb-16 md:pb-0"
+          />
         </div>
       </div>
       <Image
