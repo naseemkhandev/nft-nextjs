@@ -11,7 +11,7 @@ const Email = () => {
   return (
     <>
       {sendMail === false ? (
-        <section className="container md:px-10 p-10 md:p-16 mx-auto flex flex-col gap-10 items-center justify-center">
+        <section className="container px-5 md:px-10 p-10 md:p-16 mx-auto flex flex-col gap-10 items-center justify-center">
           <div className="mx-auto w-fit ">
             <CommonTitle title="Ready for Next NFT Drop?" />
           </div>
@@ -25,8 +25,8 @@ const Email = () => {
           </div>
         </section>
       ) : (
-        <section className="container md:px-10 p-10 md:p-16 mx-auto">
-          <div className="relative px-10 bg-white bg-[url('/doodle.png')] bg-cover bg-left bg-fixed flex flex-col gap-5 items-center justify-center py-28 w-full lg:w-1/2 mx-auto">
+        <section className="container px-5 md:px-10 p-10 md:p-16 mx-auto">
+          <div className="relative px-7 sm:px-10 bg-white rounded-lg bg-[url('/doodle.png')] bg-cover bg-left bg-fixed flex flex-col gap-5 items-center justify-center py-20 sm:py-28 w-full lg:w-1/2 mx-auto">
             <div>
               <Image
                 src="/Thankyou.png"
@@ -42,7 +42,7 @@ const Email = () => {
             </p>
             <RxCross2
               onClick={() => setSetsendMail(false)}
-              className="absolute top-10 right-12 text-2xl text-[#969696] cursor-pointer"
+              className="absolute top-8 right-9 sm:top-10 sm:right-12 text-2xl text-[#969696] cursor-pointer"
             />
           </div>
         </section>
