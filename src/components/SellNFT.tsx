@@ -19,7 +19,7 @@ const NftCard = ({ imgSrc, imgAlt, title, desc }: any) => {
 
 const SellNFT = () => {
   return (
-    <section className="container md:px-10 p-10 md:p-16 mx-auto">
+    <section id="faq" className="container md:px-10 p-10 md:p-16 mx-auto">
       <div className="sm:mx-auto w-fit mb-12 sm:mb-20">
         <CommonTitle title="create & sell your NFT" />
       </div>
